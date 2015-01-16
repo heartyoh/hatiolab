@@ -1,5 +1,6 @@
 <div class="subLink">
-	<!--button type="button" class="demo">生产管理演示</button-->
+    <button type="button" class="demo">관련산업군보기</button>
+
 	<ul>
 		<% [['site_indu_automotive', '자동차'], ['site_indu_electronics', '전자'], ['site_indu_mechanics', '기계'], ['site_indu_metalforming', '금속성형']].each do |site| %>
 		<li><a href="<%= site[0] %>" class="<%= 'site_' + params[:action] == site[0] ? 'active' : ''%>"><%= site[1] %></a></li>

@@ -1,8 +1,8 @@
 <div class="subLink">
-	<button type="button" class="demo">관련제품링크</button>
+	<button type="button" class="demo">관련제품보기</button>
 
 	<ul>
-		<% [['site_prod_mes', '생산관리시스템'], ['site_prod_qms', '품질관리시스템'], ['site_prod_scm', '공급망관리시스템'], ['site_prod_crm', '고객관리시스템'], ['site_prod_edm', '공정관리시스템'], ['site_prod_wms', '창고관리시스템']].each do |site| %>
+		<% [['site_prod_mes', '생산관리시스템'], ['site_prod_qms', '품질관리시스템'], ['site_prod_scm', '공급망관리시스템'], ['site_prod_crm', '고객관리시스템'], ['site_prod_edm', '공정데이타관리시스템'], ['site_prod_wms', '창고관리시스템']].each do |site| %>
 		<li><a href="<%= site[0] %>" class="<%= 'site_' + params[:action] == site[0] ? 'active' : ''%>"><%= site[1] %></a></li>
 		<% end %>
 	</ul>
