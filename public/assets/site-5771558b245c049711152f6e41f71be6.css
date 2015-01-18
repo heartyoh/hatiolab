@@ -1,0 +1,1296 @@
+/* line 4, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+/* line 5, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 6, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 7, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+body {
+  font-size: 13px;
+  color: #333;
+  font-family: "Microsoft Yahei",tahoma,arial;
+}
+
+/* line 8, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+button, img, input[type="button"], input[type="submit"] {
+  border: 0;
+}
+
+/* line 9, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+a {
+  color: #3a699a;
+}
+
+/* line 11, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.nav {
+  height: 35px;
+  background-color: #454545;
+  color: #fff;
+}
+
+/* line 12, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.concept {
+  background-color: #4990d2;
+}
+
+/* line 13, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.company .concept {
+  background: url(/assets/site/conceptCompany-38daa6efa0970d3c470f6a79cd67b25a.png) 50% 0 no-repeat #454545;
+  height: 140px;
+}
+
+/* line 14, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .concept {
+  background: url(/assets/site/conceptSupport-d65765ad1635ec8530f40ebd7a825f3e.png) 50% 3px no-repeat #2ca65d;
+  height: 140px;
+}
+
+/* line 15, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.indu .concept {
+  background: #198eab;
+  height: 140px;
+}
+
+/* line 16, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.content {
+  overflow: hidden;
+}
+
+/* line 17, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.footer {
+  height: 30px;
+  padding-top: 15px;
+  clear: both;
+  text-align: center;
+  color: #585858;
+  font-size: 12px;
+}
+
+/* line 18, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.innerbox {
+  width: 950px;
+  margin: auto;
+}
+
+/* line 20, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.main .concept {
+  height: 300px;
+}
+
+/* line 22, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.shadow {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  height: 2px;
+}
+
+/* line 23, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.shadow.bottom {
+  top: 188px;
+}
+
+/* line 24, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.main .shadow.bottom {
+  top: 333px;
+}
+
+/* line 25, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.prod .shadow.bottom {
+  top: 195px;
+}
+
+/* line 27, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.marginT40 {
+  margin-top: 40px !important;
+}
+
+/* nav style */
+/* line 31, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .bizname {
+  background: url(/assets/site/bizarea-65766e23113cc99443034ae0db03e78d.png) no-repeat;
+  background-size: 50px 480px;
+  height: 42px;
+  text-indent: 50px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: left;
+}
+
+/* line 32, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .bizname span, .cbp-hsmenu-wrapper .prodname span {
+  display: block;
+  color: #7ec0fd;
+  font-size: 10px;
+}
+
+/* line 33, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .auto {
+  background-position: -1px 1px;
+}
+
+/* line 34, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .elect {
+  background-position: 2px -80px;
+}
+
+/* line 35, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .mecha {
+  background-position: -3px -160px;
+}
+
+/* line 36, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .mold {
+  background-position: 0px -235px;
+}
+
+/* line 37, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .food {
+  background-position: 0px -320px;
+}
+
+/* line 38, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .logistic {
+  background-position: -2px -400px;
+}
+
+/* line 39, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .prodname {
+  background: url(/assets/site/product_boxs-711588786ded1eccf91289f87291448b.png) 3px 0 no-repeat;
+  background-size: 675px 115px;
+  width: 130px;
+  display: inline-block;
+  padding-top: 120px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 40, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .qms {
+  background-position: -109px 0;
+}
+
+/* line 41, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .scm {
+  background-position: -221px 0;
+}
+
+/* line 42, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .crm {
+  background-position: -334px 0;
+}
+
+/* line 43, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .edm {
+  background-position: -446px 0;
+}
+
+/* line 44, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper .wms {
+  background-position: -558px 0;
+}
+
+/* line 45, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu-wrapper a {
+  text-decoration: none;
+}
+
+/* line 46, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.brand {
+  background: url(/assets/site/hatiolab-a641684b79d1a3008307a90dfde449a2.png) no-repeat;
+  position: absolute;
+  top: 7px;
+  z-index: 10000;
+  width: 180px;
+  height: 30px;
+}
+
+/* line 47, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsinner {
+  position: relative;
+  z-index: 100;
+  padding-left: 300px;
+  text-align: right;
+}
+
+/* 100% width bar for menu */
+/* line 48, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu {
+  position: relative;
+  top: -7px;
+  right: 0;
+}
+
+/* line 49, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu > li {
+  margin-left: 4em;
+  display: inline-block;
+}
+
+/* line 50, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu > li:first-child {
+  margin-left: 0;
+}
+
+/* line 51, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.childY {
+  background: url(/assets/site/menu_arrowdown-c4b5ba103927779874e8ded9ed767ad2.png) 100% 22px no-repeat;
+  padding-right: 12px;
+}
+
+/* line 52, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.childY:hover, .cbp-hsitem-open .childY {
+  background-position: 100% -18px;
+}
+
+/* line 54, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu > li > a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  line-height: 3.5em;
+  display: inline-block;
+  position: relative;
+  z-index: 10000;
+}
+
+/* Main menu link style */
+/* line 55, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.no-touch .cbp-hsmenu > li > a:hover, .no-touch .cbp-hsmenu > li > a:focus, .cbp-hsmenu > li.cbp-hsitem-open > a {
+  color: #b5d250;
+}
+
+/* line 56, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu > li > a:not(:only-child):before {
+  /* Add an arrow to the main menu link if it has a submenu (not the only child) */
+  display: inline-block;
+  margin-right: 0.3em;
+  opacity: 0.4;
+  vertical-align: middle;
+}
+
+/* line 59, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu > li.cbp-hsitem-open > a:after {
+  /* Add a triangle to currently open menu item link */
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  border-color: transparent;
+  border-top-color: #2a3f52;
+  border-width: 10px;
+}
+
+/* line 63, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hssubmenu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 0;
+  visibility: hidden;
+}
+
+/* line 64, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hssubmenu:before, .cbp-hssubmenu:after {
+  content: " ";
+  display: table;
+}
+
+/* line 65, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hssubmenu:after {
+  clear: both;
+}
+
+/* line 66, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hssubmenu > li {
+  display: inline-block;
+  vertical-align: top;
+  opacity: 0;
+  -webkit-transition: opacity 0.1s 0s;
+  -moz-transition: opacity 0.1s 0s;
+  transition: opacity 0.1s 0s;
+}
+
+/* line 70, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hssubmenu > li a {
+  display: block;
+  outline: none;
+  padding: 12px 12px 7px 10px;
+  border-right: 1px dotted #3b5678;
+}
+
+/* line 71, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hssubmenu > li a:hover {
+  background-color: #284c6e;
+}
+
+/* line 72, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hssubmenu > li:last-child a {
+  border-right: 0;
+}
+
+/* line 73, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.no-touch .cbp-hssubmenu > li a:hover, .no-touch .cbp-hssubmenu > li a:focus {
+  color: #888;
+}
+
+/* line 74, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hssubmenu > li a .bizname {
+  display: block;
+  margin-top: 0.4em;
+}
+
+/* line 75, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu > li.cbp-hsitem-open .cbp-hssubmenu {
+  z-index: 1000;
+  visibility: visible;
+}
+
+/* line 76, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenu > li.cbp-hsitem-open .cbp-hssubmenu > li {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s 0.1s;
+  -moz-transition: opacity 0.5s 0.1s;
+  transition: opacity 0.5s 0.1s;
+}
+
+/* line 77, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cbp-hsmenubg {
+  background: #375d81;
+  position: absolute;
+  width: 100%;
+  opacity: .9;
+  left: 0;
+  z-index: 1;
+  height: 0px;
+}
+
+/* Helper div for animating the background */
+/* line 78, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.no-touch .cbp-hsmenubg {
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+/* concept style */
+/* line 82, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.flashMovie {
+  display: inline-block;
+  width: 560px;
+  float: left;
+}
+
+/* line 83, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.flashMovie img {
+  margin-top: 23px;
+  margin-bottom: -15px;
+}
+
+/* line 84, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.productDescription {
+  margin: 60px 0 0 10px;
+  width: 350px;
+  float: left;
+}
+
+/* line 85, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.productDescription label {
+  display: block;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* line 86, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.productDescription span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #d5ff83;
+}
+
+/* line 87, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.productDescription p {
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* line 88, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.productDescription a {
+  background: url(/assets/site/arrowRightWhite-1797ec8b03c6d45d39bc94b649008658.png) 100% 50% no-repeat;
+  padding-right: 10px;
+  margin: 0 20px 0 0;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* line 89, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept {
+  overflow: hidden;
+}
+
+/* line 90, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.mes .title {
+  background: url(/assets/site/conceptMES-63dbe73ed119859dcfd42cb01d1caa39.png) 100% 100% no-repeat;
+  width: 470px;
+  height: 97px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 91, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.qms .title {
+  background: url(/assets/site/conceptQMS-016e74d7576d121fe6fb134cb4c5bbde.png) 95% 90% no-repeat;
+  width: 470px;
+  height: 97px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 92, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.scm .title {
+  background: url(/assets/site/conceptSCM-e27149314f507ef1c84052635a32da66.png) 85% 100% no-repeat;
+  width: 470px;
+  height: 97px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 93, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.crm .title {
+  background: url(/assets/site/conceptCRM-d4830a37cefab9bde7487419a5926707.png) 100% 40% no-repeat;
+  width: 470px;
+  height: 97px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 94, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.edm .title {
+  background: url(/assets/site/conceptEDM-85e24464ad996d444820ddddf5a774c6.png) 100% 40% no-repeat;
+  width: 500px;
+  height: 97px;
+  float: left;
+  padding: 25px 0;
+  line-height: 1.25;
+  height: 97px;
+}
+
+/* line 95, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.wms .title {
+  background: url(/assets/site/conceptWMS-a25637f0c77714564da1e53c3d468d04.png) 100% -10px no-repeat;
+  width: 470px;
+  height: 97px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 96, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.automotive .title {
+  background: url(/assets/site/bizarea-65766e23113cc99443034ae0db03e78d.png) -3px 55px no-repeat;
+  width: 470px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 97, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.electronics .title {
+  background: url(/assets/site/bizarea-65766e23113cc99443034ae0db03e78d.png) -3px -47px no-repeat;
+  width: 470px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 98, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.mechanics .title {
+  background: url(/assets/site/bizarea-65766e23113cc99443034ae0db03e78d.png) -3px -149px no-repeat;
+  width: 470px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 99, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.metalforming .title {
+  background: url(/assets/site/bizarea-65766e23113cc99443034ae0db03e78d.png) -3px -240px no-repeat;
+  width: 470px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 100, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept.logistics .title {
+  background: url(/assets/site/bizarea-65766e23113cc99443034ae0db03e78d.png) -3px -443px no-repeat;
+  width: 470px;
+  float: left;
+  padding: 25px 0;
+}
+
+/* line 101, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept .title {
+  color: #fff;
+  font-size: 13px;
+}
+
+/* line 102, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept .title label {
+  display: block;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+/* line 103, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subconcept .title span {
+  font-size: 18px;
+  color: #055a95;
+}
+
+/* line 104, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.indu .subconcept .title label {
+  display: block;
+  font-size: 43px;
+  font-weight: bold;
+  text-indent: 60px;
+  line-height: 1.4;
+}
+
+/* line 105, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.indu .subconcept .title span {
+  position: absolute;
+  margin-top: -5px;
+  font-size: 18px;
+  color: #95daeb;
+}
+
+/* line 106, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .subconcept {
+  padding: 5px 0 0 65px;
+}
+
+/* line 107, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .subconcept .title label {
+  display: block;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Helvetica Neue",helvetica;
+}
+
+/* line 108, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .subconcept .title span {
+  font-size: 12px;
+  color: #caff9b;
+}
+
+/* main style */
+/* line 112, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap, .industriesWrap {
+  clear: both;
+  overflow: hidden;
+  padding: 0 0 25px 0;
+}
+
+/* line 113, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap .description {
+  margin-top: 25px;
+  width: 560px;
+  float: left;
+  color: #585858;
+  font-size: 14px;
+}
+
+/* line 114, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap .contactInfo {
+  background: url(/assets/site/bgEye-3bfbcd46beb0f6208dcc35c116703f97.png) 100% 0 no-repeat;
+  padding-top: 25px;
+  width: 380px;
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 115, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap .contactInfo .comment {
+  display: block;
+  height: 10px;
+  margin-top: -3px;
+  margin-bottom: 7px;
+  font-size: 11px;
+  color: #999;
+}
+
+/* line 116, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap .description > span {
+  display: block;
+  font-size: 20px;
+  color: #254a7a;
+  font-weight: bold;
+}
+
+/* line 117, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap .description span span {
+  color: #4990d2;
+  font-weight: bold;
+}
+
+/* line 118, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap .contactInfo .title {
+  display: block;
+  font-size: 17px;
+  color: #4990d2;
+  font-weight: bold;
+}
+
+/* line 119, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap .contactInfo .phone {
+  display: block;
+  font-size: 22px;
+  color: #254a7a;
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+}
+
+/* line 120, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.hatiolabWrap .contactInfo .mail {
+  background: url(/assets/site/iconMail-94f15d77e6db02001f860f59bee5502c.png) 0 50% no-repeat;
+  padding-left: 20px;
+}
+
+/* line 121, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap {
+  background-color: #edf2f8;
+  padding: 20px 15px 10px 15px;
+  text-align: center;
+}
+
+/* line 122, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap .description {
+  color: #585858;
+  font-size: 18px;
+}
+
+/* line 123, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap .description span {
+  color: #254a7a;
+  font-size: 22px;
+  display: block;
+}
+
+/* line 124, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap .bizArea {
+  background: url(/assets/site/bizarea-65766e23113cc99443034ae0db03e78d.png) 50% 0 no-repeat #4990d2;
+  border: 5px solid #ccdef0;
+  width: 90px;
+  height: 90px;
+  display: block;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+}
+
+/* line 125, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap .automotive {
+  background-position: 50% 25px;
+}
+
+/* line 126, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap .electronics {
+  background-position: 50% -77px;
+}
+
+/* line 127, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap .mechanics {
+  background-position: 50% -177px;
+}
+
+/* line 128, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap .mold {
+  background-position: 50% -271px;
+}
+
+/* line 129, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap .logistic {
+  background-position: 50% -472px;
+}
+
+/* line 130, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap li:hover {
+  background-color: #fff;
+  -webkit-transition: all 0.7s ease;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 131, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap a:hover .bizArea {
+  background-color: #70a630;
+  border-color: #c2d7b6;
+  -webkit-transition: all 0.7s ease;
+}
+
+/* line 132, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap a:hover label {
+  color: #447a03;
+  -webkit-transition: all 0.7s ease;
+}
+
+/* line 133, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap li {
+  width: 220px;
+  float: left;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+/* line 134, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap span {
+  margin: auto;
+}
+
+/* line 135, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap label {
+  display: inline-block;
+  margin: 9px 0 1px 0;
+  font-size: 15px;
+  color: #254a7a;
+  font-weight: bold;
+}
+
+/* line 136, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap a {
+  width: 170px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+/* line 137, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.industriesWrap p {
+  padding: 0 5px;
+  font-size: 11px;
+  color: #585858;
+}
+
+/* sub style */
+/* line 141, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.prod .content > .innerbox {
+  padding: 25px 0;
+}
+
+/* line 142, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subContentWrap {
+  width: 740px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* line 143, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.mes .prodImg {
+  background: url(/assets/site/product_boxs-711588786ded1eccf91289f87291448b.png) -7px 0 no-repeat;
+  width: 130px;
+  height: 175px;
+  margin: 0 20px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+/* line 144, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.qms .prodImg {
+  background: url(/assets/site/product_boxs-711588786ded1eccf91289f87291448b.png) -142px 0 no-repeat;
+  width: 130px;
+  height: 175px;
+  margin: 0 20px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+/* line 145, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.scm .prodImg {
+  background: url(/assets/site/product_boxs-711588786ded1eccf91289f87291448b.png) -277px 0 no-repeat;
+  width: 130px;
+  height: 175px;
+  margin: 0 20px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+/* line 146, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.crm .prodImg {
+  background: url(/assets/site/product_boxs-711588786ded1eccf91289f87291448b.png) -412px 0 no-repeat;
+  width: 130px;
+  height: 175px;
+  margin: 0 20px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+/* line 147, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.edm .prodImg {
+  background: url(/assets/site/product_boxs-711588786ded1eccf91289f87291448b.png) -547px 0 no-repeat;
+  width: 130px;
+  height: 175px;
+  margin: 0 20px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+/* line 148, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.wms .prodImg {
+  background: url(/assets/site/product_boxs-711588786ded1eccf91289f87291448b.png) 100% 0 no-repeat;
+  width: 130px;
+  height: 175px;
+  margin: 0 20px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+/* line 149, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.greenText {
+  display: block;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #6c9e01;
+}
+
+/* line 150, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.cyanText {
+  display: block;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #0f7f9b;
+}
+
+/* line 151, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subContentWrap img {
+  clear: both;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* line 152, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.company img {
+  clear: both;
+  margin: 30px auto 10px auto;
+  display: block;
+}
+
+/* line 153, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink {
+  width: 190px;
+  background-color: #edf2f8;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 760px;
+  margin-top: -40px;
+  z-index: 0;
+}
+
+/* line 155, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+button.demo {
+  background: url(/assets/site/btnDemo-1f65bd594e1f62803eefbbc8c8b7c06e.png) no-repeat;
+  width: 180px;
+  height: 40px;
+  margin: 4px 0 5px 5px;
+  cursor: pointer;
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* line 156, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+button.demo:hover {
+  background-position: 0 -50px;
+}
+
+/* line 157, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink a {
+  background: url(/assets/site/bg_dotdark-c384b7c4b26ffe4f350f3e518c4bbc4f.png) 12px 50% no-repeat;
+  text-decoration: none;
+  border-top: 1px solid #fafbfd;
+  border-bottom: 1px solid #dce1e6;
+  padding: 9px 0 5px 20px;
+  display: block;
+  color: #666;
+}
+
+/* line 158, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink a:first-child {
+  border-top: none;
+}
+
+/* line 159, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink a:hover {
+  background-color: #585858;
+  border-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 160, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink a.active {
+  background-color: #707070;
+  border-color: #333;
+  color: #fff;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* line 161, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink ul {
+  margin-bottom: 10px;
+}
+
+/* line 162, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.indu .subLink {
+  margin-top: -8px;
+}
+
+/* line 163, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.indu .subLink ul {
+  margin: 8px 0 10px 0;
+}
+
+/* line 164, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink .contactInfo {
+  position: absolute;
+  margin-top: 20px;
+}
+
+/* line 165, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink .contactInfo .title {
+  display: block;
+  color: #4990d2;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* line 166, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink .contactInfo .phone {
+  display: block;
+  font-size: 23px;
+  color: #254a7a;
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+}
+
+/* line 167, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subLink .contactInfo .mail {
+  background: url(/assets/site/iconMail-94f15d77e6db02001f860f59bee5502c.png) 0 50% no-repeat;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+/* line 168, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.feature {
+  margin-top: 30px;
+}
+
+/* line 169, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.feature div {
+  width: 355px;
+  float: left;
+  margin: 20px 0 0 0;
+  display: block;
+}
+
+/* line 170, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.feature div:last-child {
+  width: 350px;
+  margin-left: 30px;
+}
+
+/* line 171, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.feature label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c5f91;
+}
+
+/* line 172, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.feature ul {
+  margin-bottom: 15px;
+}
+
+/* line 173, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.feature .depth1 {
+  background: url(/assets/site/iconCheck-37a8350c2f201682bc851f907ee4d181.png) 0 4px no-repeat;
+  margin: 2px 0;
+  padding-left: 14px;
+}
+
+/* line 174, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.feature .depth2 {
+  padding-left: 14px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* line 175, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.company p {
+  line-height: 2;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #e4e4e4;
+}
+
+/* line 176, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subContentWrap.company {
+  width: 100%;
+}
+
+/* line 177, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.subContentWrap.support {
+  overflow: hidden;
+}
+
+/* line 178, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .mailForm {
+  width: 520px;
+  background-color: #edf2f8;
+  position: absolute;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 400px;
+  margin-top: -10px;
+  padding: 10px 15px 5px 15px;
+  z-index: 0;
+  box-shadow: 2px 2px 1px #ccc;
+  font-size: 18px;
+  color: #666;
+}
+
+/* line 184, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.mailForm form {
+  font-size: 13px;
+  color: #585858;
+}
+
+/* line 185, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.mailForm form span {
+  background: url(/assets/site/bg_dotdark-c384b7c4b26ffe4f350f3e518c4bbc4f.png) 0 50% no-repeat;
+  display: block;
+  border-bottom: 1px dotted #cfcfcf;
+  padding: 5px 0 2px 10px;
+}
+
+/* line 186, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.mailForm form span * {
+  vertical-align: middle;
+}
+
+/* line 187, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.mailForm form label {
+  width: 110px;
+  display: inline-block;
+}
+
+/* line 188, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.mailForm form input[type='text'], .mailForm form textarea {
+  width: 350px;
+}
+
+/* line 189, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .info {
+  width: 370px;
+  padding: 20px 0 5px 0;
+}
+
+/* line 190, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .info p strong {
+  display: block;
+  font-size: 18px;
+  color: #585858;
+}
+
+/* line 191, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .info label {
+  margin: 25px 0 5px 0;
+  display: block;
+  color: #2c5f91;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 192, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.support .info span {
+  background: url(/assets/site/iconCheck-37a8350c2f201682bc851f907ee4d181.png) 0 3px no-repeat;
+  margin: 2px 0;
+  padding-left: 14px;
+  display: block;
+}
+
+/* line 193, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.mailForm form .btnSend {
+  background: url(/assets/site/btnDemo-1f65bd594e1f62803eefbbc8c8b7c06e.png) no-repeat;
+  width: 180px;
+  height: 40px;
+  margin: 10px 45px 5px 0;
+  cursor: pointer;
+  padding: 0 25px 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  float: right;
+}
+
+/* line 194, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.mailForm form .btnSend:hover {
+  background-position: 0 -50px;
+}
+
+/* line 195, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.indu .subContentWrap {
+  padding-top: 25px;
+}
+
+/* line 196, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.induImg {
+  width: 250px;
+  margin: 10px 20px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+/* line 197, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.induImg img {
+  width: 250px;
+  border: 1px solid #cfcfcf;
+}
+
+/* line 198, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule {
+  clear: both;
+  margin: 40px 0 0 0;
+}
+
+/* line 199, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule label {
+  display: block;
+  margin-bottom: 10px;
+  color: #b5b5b5;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 200, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule label span {
+  display: block;
+  border-bottom: 1px dotted #ddd;
+  margin-bottom: 4px;
+  color: #585858;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* line 201, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule li {
+  background: url(/assets/site/iconInduModule-2d67bd1bb748a29a22406468a417b3b4.png) no-repeat;
+  padding-left: 45px;
+  margin-bottom: 25px;
+  width: 315px;
+  float: left;
+  font-size: 12px;
+}
+
+/* line 203, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule span.title {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #585858;
+}
+
+/* line 204, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule span.titleEng {
+  display: block;
+  font-size: 12px;
+  color: #999;
+}
+
+/* line 205, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .module2 {
+  background-position: 0 -200px;
+}
+
+/* line 206, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .module3 {
+  background-position: 0 -400px;
+}
+
+/* line 207, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .module4 {
+  background-position: 0 -600px;
+}
+
+/* line 208, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .module5 {
+  background-position: 0 -800px;
+}
+
+/* line 209, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .module6 {
+  background-position: 0 -1000px;
+}
+
+/* line 210, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .module7 {
+  background-position: 0 -1200px;
+}
+
+/* line 211, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .module8 {
+  background-position: 0 -1400px;
+}
+
+/* line 212, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .module9 {
+  background-position: 0 -1600px;
+}
+
+/* line 213, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule .depth1 {
+  background: url(/assets/site/iconCheck-37a8350c2f201682bc851f907ee4d181.png) 43px 6px no-repeat #fff;
+  margin: 0 0 0 -45px !important;
+  padding: 2px 0 2px 55px;
+  display: block;
+}
+
+/* line 214, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule div {
+  width: 355px;
+  float: left;
+  margin: 20px 0 0 0;
+  display: block;
+}
+
+/* line 215, /Users/hoppaang/git/hatiolab/app/assets/stylesheets/site.css.scss */
+.sysModule div:nth-child(odd) {
+  margin-left: 25px;
+}
