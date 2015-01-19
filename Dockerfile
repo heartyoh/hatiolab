@@ -7,7 +7,7 @@
 #
 # To build an image with docker is pretty simple:
 #
-#     $ docker build -t hatiolab github.com/hatiolab/hatiolab.git
+#     $ docker build -t hatiolab github.com/heartyoh/hatiolab.git
 #
 # Then to run that image and attach to it at the same time:
 #
