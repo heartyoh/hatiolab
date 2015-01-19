@@ -40,7 +40,7 @@ RUN /etc/init.d/postgresql start &&\
     psql --command "CREATE USER root WITH SUPERUSER PASSWORD 'root';" &&\
     createdb -O root root
 
-VOLUME  ["/etc/postgresql", "/var/log/postgresql", "/var/lib/postgresql", "/hatiolab"]
+VOLUME  ["/etc/postgresql", "/var/log/postgresql", "/var/lib/postgresql", "/hatiolab", "/usr/bin"]
 
 USER root
 
