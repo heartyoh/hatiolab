@@ -3,16 +3,16 @@
 <% content_for :concept do %>
 <div class="subconcept support">
 	<strong>Hatio, Lab. Support</strong>
-	우리는 고객의 목소리를 듣고 행복하다 , 웨이 센 관리 시스템 소프트웨어가 비즈니스 혁신을 달성 할 수 있도록 하는 방법을 심도있게 논의하기 위해 마케팅 전문가에게 문의 하시기 바랍니다.
+	하티오랩의 Things 솔루션으로 비즈니스 혁신을 달성할 수 있도록 하는 방법을 깊이있게 논의하고자 하시면 마케팅 담당자에게 문의해주세요.
 </div>
 <% end %>
 
 <div class="subContentWrap support">
 	<div class="mailForm">
-		Contact Us..
+		저희 제품에 관심이 있으시면..
 		<%= form_tag({:controller => :site, :action => :contact}, :remote => true) do %>
 			<span>
-				<%= label_tag(:product, "interest") %>
+				<%= label_tag(:product, "관심분야") %>
 				<%= select_tag(:product, options_for_select([
 					['생산관리시스템', 'MES'],
 					['품질관리시스템', 'QMS'],
@@ -20,45 +20,48 @@
 					['고객관리시스템', 'CRM'],
 					['엔지니어링데이터관리', 'EDM'],
 					['창고관리시스템', 'WMS'],
-					['Training', 'Traning'],
-					['Regarding the website … ', 'WebSite']]), :prompt => "Please select a product")
+					['교육', 'Traning'],
+					['웹사이트 관련해서 ...', 'WebSite']]), :prompt => "관심분야를 선택해주세요.")
 				%>
 			</span>
 			<span>
-				<%= label_tag(:name, "name") %>
+				<%= label_tag(:name, "이름") %>
 				<%= text_field_tag(:name)%>
 			</span>
 			<span>
-				<%= label_tag(:email, "email") %>
+				<%= label_tag(:email, "이메일") %>
 				<%= text_field_tag(:email)%>
 			</span>
 			<span>
-				<%= label_tag(:company, "company") %>
+				<%= label_tag(:company, "소속") %>
 				<%= text_field_tag(:company)%>
 			</span>
 			<span>
-				<%= label_tag(:phone, "phone") %>
+				<%= label_tag(:phone, "전화번호") %>
 				<%= text_field_tag(:phone)%>
 			</span>
 			<span>
-				<%= label_tag(:message, "message") %>
+				<%= label_tag(:message, "남기실 말씀") %>
 				<%= text_area_tag(:message, '', :rows => 3)%>
 			</span>
 			<span>
 				<%= check_box_tag(:subscribe) %>
-				Keep me up to date with Hatio, Lab. news!
+				하티오랩의 새로운 소식을 계속해서 받으시겠습니까 ?
 			</span>
 			<div class="notice" id="flash_notice"><%= flash[:notice] %></div>
-			<%= submit_tag("Send Message", :class => 'btnSend') %>
+			<%= submit_tag("보내기", :class => 'btnSend') %>
 		<% end %>
 
 	</div>
 	<div class="info">
-		<p><strong>환영！</strong>당신이 제품 판매 , 상용 라이센스 , 사용자 교육 , 전문 서비스 및 우리가 대답 해야 할 질문 의 다른 측면 에 관련된 정보가 있다면, 우리의 서비스 팀은 빠른 에 질문 을 받게됩니다 , 이 페이지 에 메시지 표시 줄 을 메세지를 남겨주세요 속도는 연락을 당신과 함께 얻을 수 있습니다.<br/><br/>우리의 제품과 서비스 에 관심을 가져 주셔서 감사합니다！</p>
-		<label>Headquarters</label>
+		<p><strong>환영합니다.</strong>하티오랩의 제품 판매, 상용 라이센스, 사용자 교육, 전문 서비스 또는 그 밖의 궁금한 점이 있으면 이 페이지에 메세지를 남겨주세요. 최선을 다해서 대답을 드리도록 하겠습니다.<br/><br/>하티오랩의 제품과 서비스에 관심을 가져주셔서 감사합니다！</p>
+		<label>회사 정보</label>
 		<span>경기도 성남시 분당구 황새울로 335번길 8 덕산빌딩 4층 422호 (우:463-824)</span>
-		<span>+82.10.26081802</span>
-		<span>admin@hatiolab.com</span>
-		<span><a href="https://maps.google.com/maps/myplaces?hl=en&ll=37.386773,127.122094&spn=0.014965,0.023324&ctz=-540&t=m&z=16&iwloc=A" target="_blank">View Map</a></span>
+		<span>heartyoh@hatiolab.com</span>
+		<span><a href="https://maps.google.com/maps/myplaces?hl=en&ll=37.386773,127.122094&spn=0.014965,0.023324&ctz=-540&t=m&z=16&iwloc=A" target="_blank">지도에서 보기</a></span>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 	</div>
 </div>
