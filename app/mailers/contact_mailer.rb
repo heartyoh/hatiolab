@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  default from: "admin@hatiolab.com", to: "admin@hatiolab.com"
+  default from: "heartyoh@hatiolab.com", to: "heartyoh@hatiolab.com"
 
   def contact_email(contact)
     @contact = contact
